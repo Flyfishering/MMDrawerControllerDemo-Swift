@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044C955D1EBC0C17001CCDD2 /* GAB_BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C955C1EBC0C17001CCDD2 /* GAB_BaseViewController.swift */; };
+		044C955F1EBC0C43001CCDD2 /* GAB_BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C955E1EBC0C43001CCDD2 /* GAB_BaseNavigationController.swift */; };
+		044C95621EBC0C89001CCDD2 /* GAB_CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C95601EBC0C89001CCDD2 /* GAB_CenterViewController.swift */; };
+		044C95631EBC0C89001CCDD2 /* GAB_CenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044C95611EBC0C89001CCDD2 /* GAB_CenterViewController.xib */; };
+		044C95651EBC0CA1001CCDD2 /* GAB_LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C95641EBC0CA1001CCDD2 /* GAB_LeftViewController.swift */; };
+		044C95691EBC0DD9001CCDD2 /* GAB_RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C95681EBC0DD9001CCDD2 /* GAB_RightViewController.swift */; };
+		044C96271EBC7F43001CCDD2 /* GAB_Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C96261EBC7F43001CCDD2 /* GAB_Constant.swift */; };
 		045E5B9E1EBAB00300B82DAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5B9D1EBAB00300B82DAB /* AppDelegate.swift */; };
 		045E5BA01EBAB00300B82DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5B9F1EBAB00300B82DAB /* ViewController.swift */; };
 		045E5BA31EBAB00300B82DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045E5BA11EBAB00300B82DAB /* Main.storyboard */; };
@@ -14,6 +21,11 @@
 		045E5BA81EBAB00300B82DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045E5BA61EBAB00300B82DAB /* LaunchScreen.storyboard */; };
 		045E5BB31EBAB00300B82DAB /* GuanAiBaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5BB21EBAB00300B82DAB /* GuanAiBaoTests.swift */; };
 		045E5BBE1EBAB00300B82DAB /* GuanAiBaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5BBD1EBAB00300B82DAB /* GuanAiBaoUITests.swift */; };
+		07212791D0BCE2E61FAE9C60 /* Pods_GuanAiBao_GuanAiBaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F5D20839A12B399B9D005F /* Pods_GuanAiBao_GuanAiBaoTests.framework */; };
+		3A0606672EDF66B03367355C /* Pods_GuanAiBaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567DFC7008A92D8E3AEE0E43 /* Pods_GuanAiBaoTests.framework */; };
+		7BB110EC6163C5C178B1B8D8 /* Pods_GuanAiBaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6748E7BD858636483AB4F445 /* Pods_GuanAiBaoUITests.framework */; };
+		B9D310A6187DE69C3DF4043C /* Pods_GuanAiBao_GuanAiBaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D54D760A8B872BBC3021D1 /* Pods_GuanAiBao_GuanAiBaoUITests.framework */; };
+		CD434D870349CC5B1D1B4D62 /* Pods_GuanAiBao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B4B0D5D4FC92D8E33EF91B /* Pods_GuanAiBao.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044C955C1EBC0C17001CCDD2 /* GAB_BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAB_BaseViewController.swift; sourceTree = "<group>"; };
+		044C955E1EBC0C43001CCDD2 /* GAB_BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAB_BaseNavigationController.swift; sourceTree = "<group>"; };
+		044C95601EBC0C89001CCDD2 /* GAB_CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAB_CenterViewController.swift; sourceTree = "<group>"; };
+		044C95611EBC0C89001CCDD2 /* GAB_CenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAB_CenterViewController.xib; sourceTree = "<group>"; };
+		044C95641EBC0CA1001CCDD2 /* GAB_LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAB_LeftViewController.swift; sourceTree = "<group>"; };
+		044C95681EBC0DD9001CCDD2 /* GAB_RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAB_RightViewController.swift; sourceTree = "<group>"; };
+		044C96261EBC7F43001CCDD2 /* GAB_Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAB_Constant.swift; sourceTree = "<group>"; };
 		045E5B9A1EBAB00300B82DAB /* GuanAiBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuanAiBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045E5B9D1EBAB00300B82DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045E5B9F1EBAB00300B82DAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,21 @@
 		045E5BB91EBAB00300B82DAB /* GuanAiBaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuanAiBaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045E5BBD1EBAB00300B82DAB /* GuanAiBaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuanAiBaoUITests.swift; sourceTree = "<group>"; };
 		045E5BBF1EBAB00300B82DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9B87EAD22C4D881A55A0CD /* Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		12F5D20839A12B399B9D005F /* Pods_GuanAiBao_GuanAiBaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuanAiBao_GuanAiBaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA8B273C364113E9FE87DFC /* Pods-GuanAiBaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBaoUITests/Pods-GuanAiBaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		321C7CFA34D5C6F96685F35E /* Pods-GuanAiBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBao/Pods-GuanAiBao.debug.xcconfig"; sourceTree = "<group>"; };
+		49A921A0B24D2315D54B069D /* Pods-GuanAiBaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBaoUITests/Pods-GuanAiBaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		567DFC7008A92D8E3AEE0E43 /* Pods_GuanAiBaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuanAiBaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6748E7BD858636483AB4F445 /* Pods_GuanAiBaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuanAiBaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		674F4118C22BF50368E21F83 /* Pods-GuanAiBaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBaoTests/Pods-GuanAiBaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AEC507B2A9CF9626BD2D1EE /* Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoTests/Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		76DF759ACB9ADEBBF5C5B949 /* Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoTests/Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B68ADB6AAF9BD4CBF05BC07E /* Pods-GuanAiBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBao.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBao/Pods-GuanAiBao.release.xcconfig"; sourceTree = "<group>"; };
+		D3B4B0D5D4FC92D8E33EF91B /* Pods_GuanAiBao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuanAiBao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D54D760A8B872BBC3021D1 /* Pods_GuanAiBao_GuanAiBaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuanAiBao_GuanAiBaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7225346372BE36C2071E1AA /* Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7D97BE1E858A4E33250DAFE /* Pods-GuanAiBaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBaoTests/Pods-GuanAiBaoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD434D870349CC5B1D1B4D62 /* Pods_GuanAiBao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0606672EDF66B03367355C /* Pods_GuanAiBaoTests.framework in Frameworks */,
+				07212791D0BCE2E61FAE9C60 /* Pods_GuanAiBao_GuanAiBaoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +105,103 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB110EC6163C5C178B1B8D8 /* Pods_GuanAiBaoUITests.framework in Frameworks */,
+				B9D310A6187DE69C3DF4043C /* Pods_GuanAiBao_GuanAiBaoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044C95501EBC09BA001CCDD2 /* GAB_Common */ = {
+			isa = PBXGroup;
+			children = (
+				044C95511EBC09BA001CCDD2 /* GAB_Category */,
+				044C95521EBC09BA001CCDD2 /* GAB_Tool */,
+			);
+			path = GAB_Common;
+			sourceTree = "<group>";
+		};
+		044C95511EBC09BA001CCDD2 /* GAB_Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GAB_Category;
+			sourceTree = "<group>";
+		};
+		044C95521EBC09BA001CCDD2 /* GAB_Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GAB_Tool;
+			sourceTree = "<group>";
+		};
+		044C95531EBC09BA001CCDD2 /* GAB_FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GAB_FrameWorks;
+			sourceTree = "<group>";
+		};
+		044C95541EBC09BA001CCDD2 /* GAB_Macro */ = {
+			isa = PBXGroup;
+			children = (
+				044C96261EBC7F43001CCDD2 /* GAB_Constant.swift */,
+			);
+			path = GAB_Macro;
+			sourceTree = "<group>";
+		};
+		044C95551EBC09BA001CCDD2 /* GAB_Modular */ = {
+			isa = PBXGroup;
+			children = (
+				044C95581EBC0BB8001CCDD2 /* GAB_Center */,
+				044C95591EBC0BB8001CCDD2 /* GAB_Left */,
+				044C955A1EBC0BB8001CCDD2 /* GAB_Right */,
+			);
+			path = GAB_Modular;
+			sourceTree = "<group>";
+		};
+		044C95561EBC09BA001CCDD2 /* GAB_Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GAB_Resources;
+			sourceTree = "<group>";
+		};
+		044C95581EBC0BB8001CCDD2 /* GAB_Center */ = {
+			isa = PBXGroup;
+			children = (
+				044C95601EBC0C89001CCDD2 /* GAB_CenterViewController.swift */,
+				044C95611EBC0C89001CCDD2 /* GAB_CenterViewController.xib */,
+			);
+			path = GAB_Center;
+			sourceTree = "<group>";
+		};
+		044C95591EBC0BB8001CCDD2 /* GAB_Left */ = {
+			isa = PBXGroup;
+			children = (
+				044C95641EBC0CA1001CCDD2 /* GAB_LeftViewController.swift */,
+			);
+			path = GAB_Left;
+			sourceTree = "<group>";
+		};
+		044C955A1EBC0BB8001CCDD2 /* GAB_Right */ = {
+			isa = PBXGroup;
+			children = (
+				044C95681EBC0DD9001CCDD2 /* GAB_RightViewController.swift */,
+			);
+			path = GAB_Right;
+			sourceTree = "<group>";
+		};
+		044C955B1EBC0BEB001CCDD2 /* GAB_Base */ = {
+			isa = PBXGroup;
+			children = (
+				044C955C1EBC0C17001CCDD2 /* GAB_BaseViewController.swift */,
+				044C955E1EBC0C43001CCDD2 /* GAB_BaseNavigationController.swift */,
+			);
+			path = GAB_Base;
+			sourceTree = "<group>";
+		};
 		045E5B911EBAB00300B82DAB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +209,8 @@
 				045E5BB11EBAB00300B82DAB /* GuanAiBaoTests */,
 				045E5BBC1EBAB00300B82DAB /* GuanAiBaoUITests */,
 				045E5B9B1EBAB00300B82DAB /* Products */,
+				9C77E9A3189FB8B266C75810 /* Pods */,
+				38BF31B5AA8E6094C8A2BD70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +227,12 @@
 		045E5B9C1EBAB00300B82DAB /* GuanAiBao */ = {
 			isa = PBXGroup;
 			children = (
+				044C955B1EBC0BEB001CCDD2 /* GAB_Base */,
+				044C95501EBC09BA001CCDD2 /* GAB_Common */,
+				044C95531EBC09BA001CCDD2 /* GAB_FrameWorks */,
+				044C95541EBC09BA001CCDD2 /* GAB_Macro */,
+				044C95551EBC09BA001CCDD2 /* GAB_Modular */,
+				044C95561EBC09BA001CCDD2 /* GAB_Resources */,
 				045E5B9D1EBAB00300B82DAB /* AppDelegate.swift */,
 				045E5B9F1EBAB00300B82DAB /* ViewController.swift */,
 				045E5BA11EBAB00300B82DAB /* Main.storyboard */,
@@ -125,6 +261,35 @@
 			path = GuanAiBaoUITests;
 			sourceTree = "<group>";
 		};
+		38BF31B5AA8E6094C8A2BD70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B4B0D5D4FC92D8E33EF91B /* Pods_GuanAiBao.framework */,
+				567DFC7008A92D8E3AEE0E43 /* Pods_GuanAiBaoTests.framework */,
+				6748E7BD858636483AB4F445 /* Pods_GuanAiBaoUITests.framework */,
+				12F5D20839A12B399B9D005F /* Pods_GuanAiBao_GuanAiBaoTests.framework */,
+				D3D54D760A8B872BBC3021D1 /* Pods_GuanAiBao_GuanAiBaoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C77E9A3189FB8B266C75810 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				321C7CFA34D5C6F96685F35E /* Pods-GuanAiBao.debug.xcconfig */,
+				B68ADB6AAF9BD4CBF05BC07E /* Pods-GuanAiBao.release.xcconfig */,
+				674F4118C22BF50368E21F83 /* Pods-GuanAiBaoTests.debug.xcconfig */,
+				E7D97BE1E858A4E33250DAFE /* Pods-GuanAiBaoTests.release.xcconfig */,
+				49A921A0B24D2315D54B069D /* Pods-GuanAiBaoUITests.debug.xcconfig */,
+				1FA8B273C364113E9FE87DFC /* Pods-GuanAiBaoUITests.release.xcconfig */,
+				76DF759ACB9ADEBBF5C5B949 /* Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig */,
+				6AEC507B2A9CF9626BD2D1EE /* Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig */,
+				0A9B87EAD22C4D881A55A0CD /* Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig */,
+				E7225346372BE36C2071E1AA /* Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045E5BC21EBAB00300B82DAB /* Build configuration list for PBXNativeTarget "GuanAiBao" */;
 			buildPhases = (
+				F0F6D1734969A5CC2EE8569E /* [CP] Check Pods Manifest.lock */,
 				045E5B961EBAB00300B82DAB /* Sources */,
 				045E5B971EBAB00300B82DAB /* Frameworks */,
 				045E5B981EBAB00300B82DAB /* Resources */,
+				9807534BA012F54013F1AFEF /* [CP] Embed Pods Frameworks */,
+				C1D6D3A109C684CFFAE810B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045E5BC51EBAB00300B82DAB /* Build configuration list for PBXNativeTarget "GuanAiBaoTests" */;
 			buildPhases = (
+				90F332784E791674A4BE7F2A /* [CP] Check Pods Manifest.lock */,
 				045E5BAA1EBAB00300B82DAB /* Sources */,
 				045E5BAB1EBAB00300B82DAB /* Frameworks */,
 				045E5BAC1EBAB00300B82DAB /* Resources */,
+				65734C2AB3AEFF7F4DEEE459 /* [CP] Embed Pods Frameworks */,
+				BEA24D904DE371588DF0DBA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +338,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045E5BC81EBAB00300B82DAB /* Build configuration list for PBXNativeTarget "GuanAiBaoUITests" */;
 			buildPhases = (
+				782A8DABA651F83AE31CF14E /* [CP] Check Pods Manifest.lock */,
 				045E5BB51EBAB00300B82DAB /* Sources */,
 				045E5BB61EBAB00300B82DAB /* Frameworks */,
 				045E5BB71EBAB00300B82DAB /* Resources */,
+				7F13BE24F9DFB5ACAEE8B017 /* [CP] Embed Pods Frameworks */,
+				B91FEF5719FD39A00BD9D286 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +368,7 @@
 					045E5B991EBAB00300B82DAB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2N3LY2CR7S;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					045E5BAD1EBAB00300B82DAB = {
@@ -237,6 +412,7 @@
 			files = (
 				045E5BA81EBAB00300B82DAB /* LaunchScreen.storyboard in Resources */,
 				045E5BA51EBAB00300B82DAB /* Assets.xcassets in Resources */,
+				044C95631EBC0C89001CCDD2 /* GAB_CenterViewController.xib in Resources */,
 				045E5BA31EBAB00300B82DAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +433,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65734C2AB3AEFF7F4DEEE459 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoTests/Pods-GuanAiBao-GuanAiBaoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		782A8DABA651F83AE31CF14E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F13BE24F9DFB5ACAEE8B017 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Pods-GuanAiBao-GuanAiBaoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90F332784E791674A4BE7F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9807534BA012F54013F1AFEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuanAiBao/Pods-GuanAiBao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91FEF5719FD39A00BD9D286 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Pods-GuanAiBao-GuanAiBaoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA24D904DE371588DF0DBA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoTests/Pods-GuanAiBao-GuanAiBaoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D6D3A109C684CFFAE810B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuanAiBao/Pods-GuanAiBao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F6D1734969A5CC2EE8569E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		045E5B961EBAB00300B82DAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044C96271EBC7F43001CCDD2 /* GAB_Constant.swift in Sources */,
+				044C955D1EBC0C17001CCDD2 /* GAB_BaseViewController.swift in Sources */,
+				044C955F1EBC0C43001CCDD2 /* GAB_BaseNavigationController.swift in Sources */,
 				045E5BA01EBAB00300B82DAB /* ViewController.swift in Sources */,
+				044C95691EBC0DD9001CCDD2 /* GAB_RightViewController.swift in Sources */,
+				044C95621EBC0C89001CCDD2 /* GAB_CenterViewController.swift in Sources */,
+				044C95651EBC0CA1001CCDD2 /* GAB_LeftViewController.swift in Sources */,
 				045E5B9E1EBAB00300B82DAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +641,7 @@
 		045E5BC01EBAB00300B82DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -363,6 +684,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "GuanAiBao/GAB_Macro/GuanAiBao-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -370,6 +692,7 @@
 		045E5BC11EBAB00300B82DAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -404,6 +727,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "GuanAiBao/GAB_Macro/GuanAiBao-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,32 +735,42 @@
 		};
 		045E5BC31EBAB00300B82DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321C7CFA34D5C6F96685F35E /* Pods-GuanAiBao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2N3LY2CR7S;
 				INFOPLIST_FILE = GuanAiBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wbb.GuanAiBao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		045E5BC41EBAB00300B82DAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68ADB6AAF9BD4CBF05BC07E /* Pods-GuanAiBao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2N3LY2CR7S;
 				INFOPLIST_FILE = GuanAiBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wbb.GuanAiBao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		045E5BC61EBAB00300B82DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DF759ACB9ADEBBF5C5B949 /* Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +786,7 @@
 		};
 		045E5BC71EBAB00300B82DAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEC507B2A9CF9626BD2D1EE /* Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +802,7 @@
 		};
 		045E5BC91EBAB00300B82DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9B87EAD22C4D881A55A0CD /* Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2N3LY2CR7S;
@@ -474,6 +810,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wbb.GuanAiBaoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/关爱宝新/GuanAiBao/GuanAiBao/GAB_Macro/GuanAiBao-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GuanAiBao;
 			};
@@ -481,6 +818,7 @@
 		};
 		045E5BCA1EBAB00300B82DAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7225346372BE36C2071E1AA /* Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2N3LY2CR7S;
@@ -488,6 +826,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wbb.GuanAiBaoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mac/Desktop/关爱宝新/GuanAiBao/GuanAiBao/GAB_Macro/GuanAiBao-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GuanAiBao;
 			};
@@ -512,6 +851,7 @@
 				045E5BC41EBAB00300B82DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045E5BC51EBAB00300B82DAB /* Build configuration list for PBXNativeTarget "GuanAiBaoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +860,7 @@
 				045E5BC71EBAB00300B82DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		045E5BC81EBAB00300B82DAB /* Build configuration list for PBXNativeTarget "GuanAiBaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +869,7 @@
 				045E5BCA1EBAB00300B82DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

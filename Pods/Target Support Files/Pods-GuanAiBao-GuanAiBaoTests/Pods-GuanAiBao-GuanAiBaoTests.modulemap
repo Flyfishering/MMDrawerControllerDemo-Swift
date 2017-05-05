@@ -1,0 +1,6 @@
+framework module Pods_GuanAiBao_GuanAiBaoTests {
+  umbrella header "Pods-GuanAiBao-GuanAiBaoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E6EFE7F604EC34AF593AA077338933 /* MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2F3A9B628F4420BA94F2EB35ED7951 /* MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13547251DD5B5A4F4860DB3BB2237F4C /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F5E77DBB226BAD089273E51309E202 /* MMDrawerController.m */; };
+		425C78BBD8D16CEBA09A4C40E639DEA8 /* MMDrawerVisualState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6790485C21650BC51E59B5B3FC7FBB /* MMDrawerVisualState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538DB07D45E461E58A0D0DBC32F39A9A /* MMDrawerController+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8C7441C9AF44704A488A065856C7B1 /* MMDrawerController+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC729896F0A30142380D97F473CC447 /* Pods-GuanAiBao-GuanAiBaoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BF681056B09AD64AD77F543F8DBB08 /* Pods-GuanAiBao-GuanAiBaoTests-dummy.m */; };
+		6603C8DC7C1D5E7DBDD9D4D48B45A244 /* MMDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9129A8CE3825C2329BA3871995A105 /* MMDrawerController-dummy.m */; };
+		6FC47BD13A00F2873557F8F2B2AECB50 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0828402DCE440D28BFC9B8F6F40EFA /* MMDrawerBarButtonItem.m */; };
+		75631659677A9B2C3F358DB7943D7425 /* MMDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDEE3A0134A907C31BB37CC27C1D77A /* MMDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E8311B58E7E3F5F1FC6066EFEE3D17E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		83EB269F83ED43B232B8547159AD10B2 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5145DE96C5B17941DBCE7CABB846E154 /* UIViewController+MMDrawerController.m */; };
+		87D5566FBE56FAC109D28EE01275E48D /* Pods-GuanAiBao-GuanAiBaoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A58ADDA0DFF46AD25CBFDEB583E1306 /* Pods-GuanAiBao-GuanAiBaoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898A00A366623FEDB727E919A2D336E8 /* MMDrawerBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F2D1253B19A3063BCA241F37774BA92 /* MMDrawerBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC67BC0F721850D14BDD2EA45F7848E /* Pods-GuanAiBao-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A8ACEB67215EFE31F7B91731963E1C /* Pods-GuanAiBao-dummy.m */; };
+		976AE3B8EDE4A22F33EC8AB6188050A0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		9EEFE73CC80712E64F55AAFB3CCBB18A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		A62AD95CDC21543E1386D176DE4822D3 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 803033B054D215233ED28F75F0479E85 /* MMDrawerVisualState.m */; };
+		B83DBAF9155D882F8F28E042945F75C1 /* UIViewController+MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4819A5105E6C346BD24FF9B552A2D5F8 /* UIViewController+MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40562131184010F609A403BFC35466D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		D2D967E201B4E30A4FBAB9990CF5CDCF /* Pods-GuanAiBao-GuanAiBaoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC303FB4F55CF3DF2F3A520BC57E041 /* Pods-GuanAiBao-GuanAiBaoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4CF76FE80EBD676B7C8CCDC4F5AA31E /* Pods-GuanAiBao-GuanAiBaoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF781450224ED3D55FF976A111F8CCB /* Pods-GuanAiBao-GuanAiBaoUITests-dummy.m */; };
+		F4F3CAD9889DD555A4DED5709368554F /* Pods-GuanAiBao-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F0F01D2AD69C0E37F78F0556BB45D15 /* Pods-GuanAiBao-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F811B6ED670D2F1EABF0C42C7F7D34AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46A0A04D84BEE724B150EC2589B4A266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FAB4675B15F8258B6C19B71077B859;
+			remoteInfo = MMDrawerController;
+		};
+		7F2E7EB59E1EEF9F305A82EADA8F80B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FAB4675B15F8258B6C19B71077B859;
+			remoteInfo = MMDrawerController;
+		};
+		985B7A02FA69D9A8EA6A5CB5E72C98E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FAB4675B15F8258B6C19B71077B859;
+			remoteInfo = MMDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035597E3DB1BC5875A0A113A274C7B72 /* Pods-GuanAiBao-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuanAiBao-frameworks.sh"; sourceTree = "<group>"; };
+		0658B62749BBF3A42C1483E26384C7E2 /* Pods-GuanAiBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuanAiBao.debug.xcconfig"; sourceTree = "<group>"; };
+		086159A0DC504CC969AA349585BDC8B9 /* Pods_GuanAiBao_GuanAiBaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuanAiBao_GuanAiBaoTests.framework; path = "Pods-GuanAiBao-GuanAiBaoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0F01D2AD69C0E37F78F0556BB45D15 /* Pods-GuanAiBao-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuanAiBao-umbrella.h"; sourceTree = "<group>"; };
+		1013EEE48299A8271E86D685510D19F8 /* Pods-GuanAiBao.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GuanAiBao.modulemap"; sourceTree = "<group>"; };
+		13CBFADD72143DB7D1FE4276E80E2553 /* Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		19706531B8060D112A9092C63F290BCF /* Pods-GuanAiBao-GuanAiBaoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuanAiBao-GuanAiBaoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A58ADDA0DFF46AD25CBFDEB583E1306 /* Pods-GuanAiBao-GuanAiBaoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuanAiBao-GuanAiBaoUITests-umbrella.h"; sourceTree = "<group>"; };
+		1F910D5BE869895AC3E9E0D925D5ECDC /* Pods-GuanAiBao-GuanAiBaoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GuanAiBao-GuanAiBaoUITests.modulemap"; sourceTree = "<group>"; };
+		29F5E77DBB226BAD089273E51309E202 /* MMDrawerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = MMDrawerController/MMDrawerController.m; sourceTree = "<group>"; };
+		2C8C7441C9AF44704A488A065856C7B1 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		3079B0C6F4FFACFAB1340B92190BC6E3 /* Pods-GuanAiBao-GuanAiBaoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuanAiBao-GuanAiBaoUITests-resources.sh"; sourceTree = "<group>"; };
+		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B9129A8CE3825C2329BA3871995A105 /* MMDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController-dummy.m"; sourceTree = "<group>"; };
+		3F2D1253B19A3063BCA241F37774BA92 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		4270E8948D01FF462AD9B835B8FFD09E /* Pods-GuanAiBao-GuanAiBaoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuanAiBao-GuanAiBaoTests-resources.sh"; sourceTree = "<group>"; };
+		4819A5105E6C346BD24FF9B552A2D5F8 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		48455BE6FD46AD34963FDD54E87F16C7 /* Pods-GuanAiBao-GuanAiBaoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuanAiBao-GuanAiBaoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		496A0E27CB3BB3160BF9F356680D1528 /* Pods-GuanAiBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuanAiBao.release.xcconfig"; sourceTree = "<group>"; };
+		4EF7E95436853A5C853E2BE071467F3A /* MMDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		5145DE96C5B17941DBCE7CABB846E154 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		555F975DA789BA15BF03FCFEA84BDA61 /* Pods-GuanAiBao-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuanAiBao-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5694EB3F01749828A96C991FFE691655 /* Pods-GuanAiBao-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuanAiBao-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C6EFA18C8AD0A6DD31547D90CBF81AF /* Pods_GuanAiBao_GuanAiBaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuanAiBao_GuanAiBaoUITests.framework; path = "Pods-GuanAiBao-GuanAiBaoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6790485C21650BC51E59B5B3FC7FBB /* MMDrawerVisualState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = MMDrawerController/MMDrawerVisualState.h; sourceTree = "<group>"; };
+		6FC303FB4F55CF3DF2F3A520BC57E041 /* Pods-GuanAiBao-GuanAiBaoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuanAiBao-GuanAiBaoTests-umbrella.h"; sourceTree = "<group>"; };
+		748EEB32B09ABA37021E832242AFA5D6 /* Pods-GuanAiBao-GuanAiBaoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GuanAiBao-GuanAiBaoTests.modulemap"; sourceTree = "<group>"; };
+		7CF781450224ED3D55FF976A111F8CCB /* Pods-GuanAiBao-GuanAiBaoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuanAiBao-GuanAiBaoUITests-dummy.m"; sourceTree = "<group>"; };
+		7F9E5FC874430149E80E3B39CA632C9F /* Pods-GuanAiBao-GuanAiBaoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuanAiBao-GuanAiBaoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		803033B054D215233ED28F75F0479E85 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = MMDrawerController/MMDrawerVisualState.m; sourceTree = "<group>"; };
+		8252A05D33FB273BE15B9065D952865B /* MMDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMDrawerController.modulemap; sourceTree = "<group>"; };
+		8C2F3A9B628F4420BA94F2EB35ED7951 /* MMDrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
+		8E0828402DCE440D28BFC9B8F6F40EFA /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AB5D22D7911AE0FFB507366BAE4B598 /* Pods-GuanAiBao-GuanAiBaoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuanAiBao-GuanAiBaoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3F25F444EDF3EB90388A3BC4C72606F /* MMDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMDrawerController.framework; path = MMDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDEE3A0134A907C31BB37CC27C1D77A /* MMDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		AE3C14EEC2AEF10BC3441DA452F9D329 /* Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7C6F941B5D4C5D6CC0706C5795FDA7D /* Pods-GuanAiBao-GuanAiBaoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuanAiBao-GuanAiBaoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8F0C87C65D336CD99E5EDA66053244C /* Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BC7A3DC75BD562ABB64129E03BA36A62 /* Pods-GuanAiBao-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuanAiBao-resources.sh"; sourceTree = "<group>"; };
+		C0271B87D2785AAF6507CE1946F10856 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB4CCCF18889D68C0D8EBF61723948E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D701108BACD178D4A7380A26D18400B9 /* MMDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMDrawerController.xcconfig; sourceTree = "<group>"; };
+		D8A8ACEB67215EFE31F7B91731963E1C /* Pods-GuanAiBao-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuanAiBao-dummy.m"; sourceTree = "<group>"; };
+		DFB4F68B265B62354243BECEC24F38F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E323CDA57637E4AC9A4898CDF3DD1136 /* Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F274BA871A8E0B976DE36087A67C4D54 /* Pods_GuanAiBao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuanAiBao.framework; path = "Pods-GuanAiBao.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BF681056B09AD64AD77F543F8DBB08 /* Pods-GuanAiBao-GuanAiBaoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuanAiBao-GuanAiBaoTests-dummy.m"; sourceTree = "<group>"; };
+		F94FFA1A313B262E45F414C04062792B /* Pods-GuanAiBao-GuanAiBaoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuanAiBao-GuanAiBaoTests-frameworks.sh"; sourceTree = "<group>"; };
+		FF92A208E134B783147554790E0CA01E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		355009164ACD5152F09953B20155E2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8311B58E7E3F5F1FC6066EFEE3D17E /* Foundation.framework in Frameworks */,
+				976AE3B8EDE4A22F33EC8AB6188050A0 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703969D48204002C9B598C531EA32958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEFE73CC80712E64F55AAFB3CCBB18A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D711032AAF943038F7FC94ABEE8CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F811B6ED670D2F1EABF0C42C7F7D34AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C432FDD91DE266FE666572829068C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40562131184010F609A403BFC35466D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF829A62FEC75F75FE9D5DEC715AAB3 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				2C8C7441C9AF44704A488A065856C7B1 /* MMDrawerController+Subclass.h */,
+			);
+			name = Subclass;
+			sourceTree = "<group>";
+		};
+		188B896382982B07CCD5903DBE442EF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E863F16BECCD5A714FF42F4AAF66F7 /* MMDrawerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2DCF74354580DF43B6FCCED9EC214863 /* Pods-GuanAiBao */ = {
+			isa = PBXGroup;
+			children = (
+				C0271B87D2785AAF6507CE1946F10856 /* Info.plist */,
+				1013EEE48299A8271E86D685510D19F8 /* Pods-GuanAiBao.modulemap */,
+				555F975DA789BA15BF03FCFEA84BDA61 /* Pods-GuanAiBao-acknowledgements.markdown */,
+				5694EB3F01749828A96C991FFE691655 /* Pods-GuanAiBao-acknowledgements.plist */,
+				D8A8ACEB67215EFE31F7B91731963E1C /* Pods-GuanAiBao-dummy.m */,
+				035597E3DB1BC5875A0A113A274C7B72 /* Pods-GuanAiBao-frameworks.sh */,
+				BC7A3DC75BD562ABB64129E03BA36A62 /* Pods-GuanAiBao-resources.sh */,
+				0F0F01D2AD69C0E37F78F0556BB45D15 /* Pods-GuanAiBao-umbrella.h */,
+				0658B62749BBF3A42C1483E26384C7E2 /* Pods-GuanAiBao.debug.xcconfig */,
+				496A0E27CB3BB3160BF9F356680D1528 /* Pods-GuanAiBao.release.xcconfig */,
+			);
+			name = "Pods-GuanAiBao";
+			path = "Target Support Files/Pods-GuanAiBao";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44E863F16BECCD5A714FF42F4AAF66F7 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				D32F2888C7DF64C1F3E055D04DA9A75A /* Core */,
+				AD08BA7FFDC16556BC248284DE265CAF /* MMDrawerBarButtonItem */,
+				5C67D1DB2EB3476A56F51441664805EC /* MMDrawerVisualStates */,
+				0EF829A62FEC75F75FE9D5DEC715AAB3 /* Subclass */,
+				8998B70C570DFF42141CA890394552C9 /* Support Files */,
+			);
+			name = MMDrawerController;
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		51FC6C600658CA7A4A57617BF909F9B0 /* Pods-GuanAiBao-GuanAiBaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB4CCCF18889D68C0D8EBF61723948E /* Info.plist */,
+				1F910D5BE869895AC3E9E0D925D5ECDC /* Pods-GuanAiBao-GuanAiBaoUITests.modulemap */,
+				9AB5D22D7911AE0FFB507366BAE4B598 /* Pods-GuanAiBao-GuanAiBaoUITests-acknowledgements.markdown */,
+				7F9E5FC874430149E80E3B39CA632C9F /* Pods-GuanAiBao-GuanAiBaoUITests-acknowledgements.plist */,
+				7CF781450224ED3D55FF976A111F8CCB /* Pods-GuanAiBao-GuanAiBaoUITests-dummy.m */,
+				48455BE6FD46AD34963FDD54E87F16C7 /* Pods-GuanAiBao-GuanAiBaoUITests-frameworks.sh */,
+				3079B0C6F4FFACFAB1340B92190BC6E3 /* Pods-GuanAiBao-GuanAiBaoUITests-resources.sh */,
+				1A58ADDA0DFF46AD25CBFDEB583E1306 /* Pods-GuanAiBao-GuanAiBaoUITests-umbrella.h */,
+				AE3C14EEC2AEF10BC3441DA452F9D329 /* Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig */,
+				E323CDA57637E4AC9A4898CDF3DD1136 /* Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig */,
+			);
+			name = "Pods-GuanAiBao-GuanAiBaoUITests";
+			path = "Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests";
+			sourceTree = "<group>";
+		};
+		5C67D1DB2EB3476A56F51441664805EC /* MMDrawerVisualStates */ = {
+			isa = PBXGroup;
+			children = (
+				5F6790485C21650BC51E59B5B3FC7FBB /* MMDrawerVisualState.h */,
+				803033B054D215233ED28F75F0479E85 /* MMDrawerVisualState.m */,
+			);
+			name = MMDrawerVisualStates;
+			sourceTree = "<group>";
+		};
+		6817A7D72E3F33642816E60544AE07BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F25F444EDF3EB90388A3BC4C72606F /* MMDrawerController.framework */,
+				F274BA871A8E0B976DE36087A67C4D54 /* Pods_GuanAiBao.framework */,
+				086159A0DC504CC969AA349585BDC8B9 /* Pods_GuanAiBao_GuanAiBaoTests.framework */,
+				5C6EFA18C8AD0A6DD31547D90CBF81AF /* Pods_GuanAiBao_GuanAiBaoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				188B896382982B07CCD5903DBE442EF7 /* Pods */,
+				6817A7D72E3F33642816E60544AE07BE /* Products */,
+				C5E79AF39A591458C9DAA211E727DFA0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8998B70C570DFF42141CA890394552C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB4F68B265B62354243BECEC24F38F5 /* Info.plist */,
+				8252A05D33FB273BE15B9065D952865B /* MMDrawerController.modulemap */,
+				D701108BACD178D4A7380A26D18400B9 /* MMDrawerController.xcconfig */,
+				3B9129A8CE3825C2329BA3871995A105 /* MMDrawerController-dummy.m */,
+				4EF7E95436853A5C853E2BE071467F3A /* MMDrawerController-prefix.pch */,
+				ADDEE3A0134A907C31BB37CC27C1D77A /* MMDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMDrawerController";
+			sourceTree = "<group>";
+		};
+		AD08BA7FFDC16556BC248284DE265CAF /* MMDrawerBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				3F2D1253B19A3063BCA241F37774BA92 /* MMDrawerBarButtonItem.h */,
+				8E0828402DCE440D28BFC9B8F6F40EFA /* MMDrawerBarButtonItem.m */,
+			);
+			name = MMDrawerBarButtonItem;
+			sourceTree = "<group>";
+		};
+		C5E79AF39A591458C9DAA211E727DFA0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF74354580DF43B6FCCED9EC214863 /* Pods-GuanAiBao */,
+				F90FF27A413695573AB5CE9244735AFF /* Pods-GuanAiBao-GuanAiBaoTests */,
+				51FC6C600658CA7A4A57617BF909F9B0 /* Pods-GuanAiBao-GuanAiBaoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
+				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D32F2888C7DF64C1F3E055D04DA9A75A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8C2F3A9B628F4420BA94F2EB35ED7951 /* MMDrawerController.h */,
+				29F5E77DBB226BAD089273E51309E202 /* MMDrawerController.m */,
+				4819A5105E6C346BD24FF9B552A2D5F8 /* UIViewController+MMDrawerController.h */,
+				5145DE96C5B17941DBCE7CABB846E154 /* UIViewController+MMDrawerController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F90FF27A413695573AB5CE9244735AFF /* Pods-GuanAiBao-GuanAiBaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF92A208E134B783147554790E0CA01E /* Info.plist */,
+				748EEB32B09ABA37021E832242AFA5D6 /* Pods-GuanAiBao-GuanAiBaoTests.modulemap */,
+				B7C6F941B5D4C5D6CC0706C5795FDA7D /* Pods-GuanAiBao-GuanAiBaoTests-acknowledgements.markdown */,
+				19706531B8060D112A9092C63F290BCF /* Pods-GuanAiBao-GuanAiBaoTests-acknowledgements.plist */,
+				F2BF681056B09AD64AD77F543F8DBB08 /* Pods-GuanAiBao-GuanAiBaoTests-dummy.m */,
+				F94FFA1A313B262E45F414C04062792B /* Pods-GuanAiBao-GuanAiBaoTests-frameworks.sh */,
+				4270E8948D01FF462AD9B835B8FFD09E /* Pods-GuanAiBao-GuanAiBaoTests-resources.sh */,
+				6FC303FB4F55CF3DF2F3A520BC57E041 /* Pods-GuanAiBao-GuanAiBaoTests-umbrella.h */,
+				B8F0C87C65D336CD99E5EDA66053244C /* Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig */,
+				13CBFADD72143DB7D1FE4276E80E2553 /* Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig */,
+			);
+			name = "Pods-GuanAiBao-GuanAiBaoTests";
+			path = "Target Support Files/Pods-GuanAiBao-GuanAiBaoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69BFC982C026B83EDAF3102937BF1ED9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A00A366623FEDB727E919A2D336E8 /* MMDrawerBarButtonItem.h in Headers */,
+				538DB07D45E461E58A0D0DBC32F39A9A /* MMDrawerController+Subclass.h in Headers */,
+				75631659677A9B2C3F358DB7943D7425 /* MMDrawerController-umbrella.h in Headers */,
+				03E6EFE7F604EC34AF593AA077338933 /* MMDrawerController.h in Headers */,
+				425C78BBD8D16CEBA09A4C40E639DEA8 /* MMDrawerVisualState.h in Headers */,
+				B83DBAF9155D882F8F28E042945F75C1 /* UIViewController+MMDrawerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB64C5236FF319F8390B17498B689CA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F3CAD9889DD555A4DED5709368554F /* Pods-GuanAiBao-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B692AEDDBE11382FDBC5B528B4B9E2D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D5566FBE56FAC109D28EE01275E48D /* Pods-GuanAiBao-GuanAiBaoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D935524E40CE9E249E333E1008C57B6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D967E201B4E30A4FBAB9990CF5CDCF /* Pods-GuanAiBao-GuanAiBaoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22B8EA876E66B6024B7EAF88D752E952 /* Pods-GuanAiBao-GuanAiBaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF10C9C2D7862673742A78ADF849C23 /* Build configuration list for PBXNativeTarget "Pods-GuanAiBao-GuanAiBaoUITests" */;
+			buildPhases = (
+				7F61B23C04E63BCD332714E85EA2E659 /* Sources */,
+				81D711032AAF943038F7FC94ABEE8CBF /* Frameworks */,
+				B692AEDDBE11382FDBC5B528B4B9E2D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB01E363D1B580591EAA8E976C06AA12 /* PBXTargetDependency */,
+			);
+			name = "Pods-GuanAiBao-GuanAiBaoUITests";
+			productName = "Pods-GuanAiBao-GuanAiBaoUITests";
+			productReference = 5C6EFA18C8AD0A6DD31547D90CBF81AF /* Pods_GuanAiBao_GuanAiBaoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		339CC1A068E33EA372C1DD72A9172DE8 /* Pods-GuanAiBao-GuanAiBaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CAEE4DB3BB479E088FC5FE8467716A /* Build configuration list for PBXNativeTarget "Pods-GuanAiBao-GuanAiBaoTests" */;
+			buildPhases = (
+				1FD63CD903C0172C919D973517371F4B /* Sources */,
+				C9C432FDD91DE266FE666572829068C2 /* Frameworks */,
+				D935524E40CE9E249E333E1008C57B6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A143463961F394F1462B59E3EE06491 /* PBXTargetDependency */,
+			);
+			name = "Pods-GuanAiBao-GuanAiBaoTests";
+			productName = "Pods-GuanAiBao-GuanAiBaoTests";
+			productReference = 086159A0DC504CC969AA349585BDC8B9 /* Pods_GuanAiBao_GuanAiBaoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DB353E3EBBE49265F3483AD61ECC62A /* Pods-GuanAiBao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 704BFD6A8C86ACAA9C40494B72392E06 /* Build configuration list for PBXNativeTarget "Pods-GuanAiBao" */;
+			buildPhases = (
+				F75F494161E87C8469672A869853FF09 /* Sources */,
+				703969D48204002C9B598C531EA32958 /* Frameworks */,
+				AB64C5236FF319F8390B17498B689CA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEADBFA6361BC7D858B7327B26C6F47E /* PBXTargetDependency */,
+			);
+			name = "Pods-GuanAiBao";
+			productName = "Pods-GuanAiBao";
+			productReference = F274BA871A8E0B976DE36087A67C4D54 /* Pods_GuanAiBao.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1AD8E2252D946F71C8BD80C393726C /* Build configuration list for PBXNativeTarget "MMDrawerController" */;
+			buildPhases = (
+				B692F0B6E9B50E5123DB8D1E561BACD2 /* Sources */,
+				355009164ACD5152F09953B20155E2CA /* Frameworks */,
+				69BFC982C026B83EDAF3102937BF1ED9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDrawerController;
+			productName = MMDrawerController;
+			productReference = A3F25F444EDF3EB90388A3BC4C72606F /* MMDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6817A7D72E3F33642816E60544AE07BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */,
+				5DB353E3EBBE49265F3483AD61ECC62A /* Pods-GuanAiBao */,
+				339CC1A068E33EA372C1DD72A9172DE8 /* Pods-GuanAiBao-GuanAiBaoTests */,
+				22B8EA876E66B6024B7EAF88D752E952 /* Pods-GuanAiBao-GuanAiBaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD63CD903C0172C919D973517371F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC729896F0A30142380D97F473CC447 /* Pods-GuanAiBao-GuanAiBaoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F61B23C04E63BCD332714E85EA2E659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CF76FE80EBD676B7C8CCDC4F5AA31E /* Pods-GuanAiBao-GuanAiBaoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B692F0B6E9B50E5123DB8D1E561BACD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC47BD13A00F2873557F8F2B2AECB50 /* MMDrawerBarButtonItem.m in Sources */,
+				6603C8DC7C1D5E7DBDD9D4D48B45A244 /* MMDrawerController-dummy.m in Sources */,
+				13547251DD5B5A4F4860DB3BB2237F4C /* MMDrawerController.m in Sources */,
+				A62AD95CDC21543E1386D176DE4822D3 /* MMDrawerVisualState.m in Sources */,
+				83EB269F83ED43B232B8547159AD10B2 /* UIViewController+MMDrawerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F494161E87C8469672A869853FF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC67BC0F721850D14BDD2EA45F7848E /* Pods-GuanAiBao-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A143463961F394F1462B59E3EE06491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMDrawerController;
+			target = A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */;
+			targetProxy = 985B7A02FA69D9A8EA6A5CB5E72C98E2 /* PBXContainerItemProxy */;
+		};
+		DEADBFA6361BC7D858B7327B26C6F47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMDrawerController;
+			target = A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */;
+			targetProxy = 7F2E7EB59E1EEF9F305A82EADA8F80B9 /* PBXContainerItemProxy */;
+		};
+		EB01E363D1B580591EAA8E976C06AA12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMDrawerController;
+			target = A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */;
+			targetProxy = 46A0A04D84BEE724B150EC2589B4A266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A0FDEEE74A8E17E19F9818A55A48D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496A0E27CB3BB3160BF9F356680D1528 /* Pods-GuanAiBao.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GuanAiBao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuanAiBao/Pods-GuanAiBao.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GuanAiBao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1313C5C07FC72390ACBE680FB622E3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D701108BACD178D4A7380A26D18400B9 /* MMDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController/MMDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDrawerController/MMDrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MMDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4407285DF820EDB8C0E52D420CFF54A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3C14EEC2AEF10BC3441DA452F9D329 /* Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Pods-GuanAiBao-GuanAiBaoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GuanAiBao_GuanAiBaoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D9313311AB02F8835C38DAD5356BF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0658B62749BBF3A42C1483E26384C7E2 /* Pods-GuanAiBao.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GuanAiBao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuanAiBao/Pods-GuanAiBao.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GuanAiBao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A66AAD8693AD19ABE10528D461CE3BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CBFADD72143DB7D1FE4276E80E2553 /* Pods-GuanAiBao-GuanAiBaoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GuanAiBao-GuanAiBaoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuanAiBao-GuanAiBaoTests/Pods-GuanAiBao-GuanAiBaoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GuanAiBao_GuanAiBaoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC6998C202295E7C33D907A384EB8C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F0C87C65D336CD99E5EDA66053244C /* Pods-GuanAiBao-GuanAiBaoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GuanAiBao-GuanAiBaoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuanAiBao-GuanAiBaoTests/Pods-GuanAiBao-GuanAiBaoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GuanAiBao_GuanAiBaoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F01523FA44B4C409B0BEA562E144BDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E323CDA57637E4AC9A4898CDF3DD1136 /* Pods-GuanAiBao-GuanAiBaoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Pods-GuanAiBao-GuanAiBaoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GuanAiBao_GuanAiBaoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE8D59377632025491A736975169FB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D701108BACD178D4A7380A26D18400B9 /* MMDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController/MMDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDrawerController/MMDrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF10C9C2D7862673742A78ADF849C23 /* Build configuration list for PBXNativeTarget "Pods-GuanAiBao-GuanAiBaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4407285DF820EDB8C0E52D420CFF54A5 /* Debug */,
+				F01523FA44B4C409B0BEA562E144BDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1AD8E2252D946F71C8BD80C393726C /* Build configuration list for PBXNativeTarget "MMDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8D59377632025491A736975169FB75 /* Debug */,
+				1313C5C07FC72390ACBE680FB622E3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		704BFD6A8C86ACAA9C40494B72392E06 /* Build configuration list for PBXNativeTarget "Pods-GuanAiBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9313311AB02F8835C38DAD5356BF08 /* Debug */,
+				00A0FDEEE74A8E17E19F9818A55A48D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CAEE4DB3BB479E088FC5FE8467716A /* Build configuration list for PBXNativeTarget "Pods-GuanAiBao-GuanAiBaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6998C202295E7C33D907A384EB8C29 /* Debug */,
+				A66AAD8693AD19ABE10528D461CE3BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
