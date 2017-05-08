@@ -10,13 +10,14 @@ import UIKit
 import MMDrawerController
 class GAB_CenterViewController: GAB_BaseViewController,GAB_LeftViewControllerDelegate {
 
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setNavigationButton()
 
+        self.title = "这是标题"
+        
+        // left drawer delegate
         let vc:GAB_LeftViewController = self.mm_drawerController.leftDrawerViewController as! GAB_LeftViewController
        
         vc.delegate = self
@@ -24,18 +25,19 @@ class GAB_CenterViewController: GAB_BaseViewController,GAB_LeftViewControllerDel
 
     func setNavigationButton() {
         
-        let leftBarButton:MMDrawerBarButtonItem = MMDrawerBarButtonItem(target: self, action: #selector(leftDrawerButtonPress(_ : )))
+        let leftBarButton:MMDrawerBarButtonItem = MMDrawerBarButtonItem(target: self, action: #selector(leftDrawerButtonPress( _: )))
+        leftBarButton.tintColor = UIColor.white
         self.navigationItem.leftBarButtonItem = leftBarButton
-        
     }
     
     func leftDrawerButtonPress(_ barButtonItem:MMDrawerBarButtonItem) {
-        print("左边 导航栏 按钮点击")
+        //print("左边 导航栏 按钮点击")
         self.mm_drawerController.toggle(MMDrawerSide.left, animated: true, completion: nil)
     }
     
 
     //MARK:- GAB_LeftViewControllerDelegate
+    
     func pushToNewViewController(index: Int) {
         /// first close drawer
         self.mm_drawerController.closeDrawer(animated: true) { (complete) in

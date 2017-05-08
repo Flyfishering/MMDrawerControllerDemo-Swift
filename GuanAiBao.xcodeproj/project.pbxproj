@@ -21,6 +21,11 @@
 		045E5BA81EBAB00300B82DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045E5BA61EBAB00300B82DAB /* LaunchScreen.storyboard */; };
 		045E5BB31EBAB00300B82DAB /* GuanAiBaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5BB21EBAB00300B82DAB /* GuanAiBaoTests.swift */; };
 		045E5BBE1EBAB00300B82DAB /* GuanAiBaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5BBD1EBAB00300B82DAB /* GuanAiBaoUITests.swift */; };
+		0476AD031EC0094100F72B9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0476AD011EC0094100F72B9F /* Default-568h@2x.png */; };
+		0476AD041EC0094100F72B9F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0476AD021EC0094100F72B9F /* Default@2x.png */; };
+		0476AD061EC013CC00F72B9F /* leftBackGroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0476AD051EC013CC00F72B9F /* leftBackGroundImage.jpg */; };
+		0476AD081EC0142900F72B9F /* GAB_LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0476AD071EC0142900F72B9F /* GAB_LeftViewController.xib */; };
+		0476AD0C1EC016DE00F72B9F /* userIcon-default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0476AD0B1EC016DE00F72B9F /* userIcon-default@2x.png */; };
 		07212791D0BCE2E61FAE9C60 /* Pods_GuanAiBao_GuanAiBaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F5D20839A12B399B9D005F /* Pods_GuanAiBao_GuanAiBaoTests.framework */; };
 		3A0606672EDF66B03367355C /* Pods_GuanAiBaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567DFC7008A92D8E3AEE0E43 /* Pods_GuanAiBaoTests.framework */; };
 		7BB110EC6163C5C178B1B8D8 /* Pods_GuanAiBaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6748E7BD858636483AB4F445 /* Pods_GuanAiBaoUITests.framework */; };
@@ -66,6 +71,11 @@
 		045E5BB91EBAB00300B82DAB /* GuanAiBaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuanAiBaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045E5BBD1EBAB00300B82DAB /* GuanAiBaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuanAiBaoUITests.swift; sourceTree = "<group>"; };
 		045E5BBF1EBAB00300B82DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0476AD011EC0094100F72B9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0476AD021EC0094100F72B9F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0476AD051EC013CC00F72B9F /* leftBackGroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leftBackGroundImage.jpg; sourceTree = "<group>"; };
+		0476AD071EC0142900F72B9F /* GAB_LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAB_LeftViewController.xib; sourceTree = "<group>"; };
+		0476AD0B1EC016DE00F72B9F /* userIcon-default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userIcon-default@2x.png"; sourceTree = "<group>"; };
 		0A9B87EAD22C4D881A55A0CD /* Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBao-GuanAiBaoUITests/Pods-GuanAiBao-GuanAiBaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		12F5D20839A12B399B9D005F /* Pods_GuanAiBao_GuanAiBaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuanAiBao_GuanAiBaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA8B273C364113E9FE87DFC /* Pods-GuanAiBaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuanAiBaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuanAiBaoUITests/Pods-GuanAiBaoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +174,7 @@
 		044C95561EBC09BA001CCDD2 /* GAB_Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0476AD001EC0089F00F72B9F /* Images */,
 			);
 			path = GAB_Resources;
 			sourceTree = "<group>";
@@ -181,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				044C95641EBC0CA1001CCDD2 /* GAB_LeftViewController.swift */,
+				0476AD071EC0142900F72B9F /* GAB_LeftViewController.xib */,
 			);
 			path = GAB_Left;
 			sourceTree = "<group>";
@@ -259,6 +271,17 @@
 				045E5BBF1EBAB00300B82DAB /* Info.plist */,
 			);
 			path = GuanAiBaoUITests;
+			sourceTree = "<group>";
+		};
+		0476AD001EC0089F00F72B9F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0476AD0B1EC016DE00F72B9F /* userIcon-default@2x.png */,
+				0476AD051EC013CC00F72B9F /* leftBackGroundImage.jpg */,
+				0476AD011EC0094100F72B9F /* Default-568h@2x.png */,
+				0476AD021EC0094100F72B9F /* Default@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		38BF31B5AA8E6094C8A2BD70 /* Frameworks */ = {
@@ -410,9 +433,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0476AD041EC0094100F72B9F /* Default@2x.png in Resources */,
 				045E5BA81EBAB00300B82DAB /* LaunchScreen.storyboard in Resources */,
 				045E5BA51EBAB00300B82DAB /* Assets.xcassets in Resources */,
 				044C95631EBC0C89001CCDD2 /* GAB_CenterViewController.xib in Resources */,
+				0476AD031EC0094100F72B9F /* Default-568h@2x.png in Resources */,
+				0476AD061EC013CC00F72B9F /* leftBackGroundImage.jpg in Resources */,
+				0476AD0C1EC016DE00F72B9F /* userIcon-default@2x.png in Resources */,
+				0476AD081EC0142900F72B9F /* GAB_LeftViewController.xib in Resources */,
 				045E5BA31EBAB00300B82DAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

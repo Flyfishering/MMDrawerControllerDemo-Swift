@@ -12,8 +12,8 @@ import MMDrawerController
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var mmDrawerController:MMDrawerController?
     
+    var mmDrawerController:MMDrawerController?
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         /// 创建左中右控制器
         let centerController:GAB_CenterViewController = GAB_CenterViewController()
-        let leftController:GAB_LeftViewController = GAB_LeftViewController()
+        let leftController:GAB_LeftViewController = GAB_LeftViewController(nibName: "GAB_LeftViewController", bundle: nil)
         let rightController:GAB_RightViewController = GAB_RightViewController()
         
 
@@ -83,6 +83,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
+    
+    
+    
+    
+    
+    func appearanceForApplication(){
+        
+        let nav = GAB_BaseNavigationController()
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

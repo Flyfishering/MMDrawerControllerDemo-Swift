@@ -13,7 +13,19 @@ class GAB_BaseNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+
+        
+        let appearance:UINavigationBar = UINavigationBar.appearance()
+        appearance.barTintColor = navigationBarBackGroundColor()
+        appearance.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white,
+          NSFontAttributeName:UIFont.systemFont(ofSize: 17.0)]
+        
+        
+        //[UINavigationBar appearance].barTintColor = [UIColor colorWithRed:0.086 green:0.643 blue:0.882 alpha:1.000];
+        //.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],
+            //NSFontAttributeName:[UIFont systemFontOfSize:17.0]};
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
